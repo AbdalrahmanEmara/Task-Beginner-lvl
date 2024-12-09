@@ -24,5 +24,4 @@ This project demonstrates my skills in:
 
 ## Screenshots
 
-<img src="./images/media-one.png" width="250px">
-<img src="./images/media-two.png" width="250px">
+<img src="./images/media-one.png" width="250px"> <img src="./images/media-two.png" width="250px">
