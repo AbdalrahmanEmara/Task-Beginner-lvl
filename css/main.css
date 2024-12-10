@@ -1,12 +1,14 @@
 * {
     box-sizing: border-box;
 }
+
 body {
     /* take this font from google fonts */
     font-family: "Roboto", sans-serif;
     font-style: normal;
     margin: 0;
 }
+
 .container {
     background-color: rgb(26 32 45);
     color: white;
@@ -35,13 +37,6 @@ body {
 .container .profile {
     display: flex;
 }
-@media (min-width: 768px) {
-    .container .profile {
-        flex-direction: column;
-        align-items: center;
-        text-align: center;
-    }
-}
 .container .profile img {
     width: 50px;
     height: 50px;
@@ -52,56 +47,37 @@ body {
     -o-border-radius: 50%;
     border: 3px solid rgb(83 66 121);
 }
-@media (min-width: 768px) {
-    .container .profile img {
-        width: 140px;
-        height: 140px;
-    }
-}
 .container .profile .text {
     margin-left: 25px;
-}
-@media (min-width: 768px) {
-    .container .profile .text {
-        margin: 0;
-    }
 }
 .container .profile .text p.name {
     margin: 5px 0 3px;
     font-size: 18px;
-}
-@media (min-width: 768px) {
-    .container .profile .text p.name {
-        margin: 15px 0 6px;
-        font-size: 22px;
-    }
 }
 .container .profile .text p:not(.name) {
     margin: 0;
     font-size: 14px;
     color: #aaa;
 }
-@media (min-width: 768px) {
-    .container .profile .text p:not(.name) {
-        font-size: 18px;
-    }
-}
 /* direct paragraph */
-.container > p {
+.container>p {
     font-size: 27px;
     line-height: 1.4;
 }
+
 .container q {
     font-size: 16px;
     font-weight: 500;
     line-height: 1.6;
     color: #bbb;
 }
+
 /* For Small and Mobile Screens */
 @media (max-width: 550px) {
-    .container > p {
+    .container>p {
         font-size: 24px;
     }
+
     .container q {
         font-size: 15px;
         font-weight: 500;
