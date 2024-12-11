@@ -3,7 +3,7 @@
 
 This repository contains the solution to <b>a beginner-level</b> frontend task using HTML and CSS.
 
-> check it here: Live Demo: 
+> check it here: Live Demo: https://abdalrahmanemara.github.io/Task-Beginner-lvl/
 
 ## Project Overview
 
